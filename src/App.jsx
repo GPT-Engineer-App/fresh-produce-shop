@@ -1,5 +1,6 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
+import Register from "./pages/Register.jsx";
 import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Login from "./pages/Login.jsx";
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/login" element={<Login />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
